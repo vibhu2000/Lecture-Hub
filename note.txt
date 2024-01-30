@@ -1,0 +1,46 @@
+--------------------------------------------------------------------
+|                          FRONT-END                               |
+--------------------------------------------------------------------
+--using scss style sheet
+npm i sass
+
+--icons
+https://mui.com/material-ui/material-icons/#material-icons
+npm add @material-ui/icons @material-ui/core
+
+--for using API link if frontend
+npm add axios 
+=> add proxy(localhost) address in package.json......, in this case we dont need to use url again and again just write proxy.........
+
+
+--------------------------------------------------------------------
+|                          FRONT-END (Admin)                               |
+--------------------------------------------------------------------
+npm add axios 
+=> add proxy(localhost) address in package.json......, in this case we dont need to use url again and again just write proxy.........
+
+
+FIREBASE
+npm install firebase
+
+
+--------------------------------------------------------------------
+|                           BACK-END                               |
+--------------------------------------------------------------------
+npm init or npm init -y
+npm add express mongoose nodemon dotenv jsonwebtocken
+                            |       |   
+                    (runn server    |
+                    automatically)  |
+                                    (to hide urls & api, etc)
+
+--> create index.js
+
+--> goto mongodb cloub -> create a cluster -> goto Network Access -> add IP Address -> click allow access from anywhere -> goto database access -> click on Add new database User and also prove appropriate role to that perticular user -> goto database -> click on connect -> clcik on connect your application -> and copy the url & paste it into index.js file
+
+--> now create modals.
+--> now create routes
+--> npm install crypto-js
+
+
+
